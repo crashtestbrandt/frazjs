@@ -6,7 +6,6 @@ function greet(element)
     {
         alert("Please enter a name.");
     } else {
-        //alert("Greetings, " + name + "!");
         document.getElementById("output_field").value = "Greetings, " + name + "!";
     }
 }
