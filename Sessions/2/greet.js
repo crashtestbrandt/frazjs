@@ -1,5 +1,5 @@
 
-function greet(element)
+function greet()
 {
     let name = document.getElementById("name_field").value;
     if (name == "")
